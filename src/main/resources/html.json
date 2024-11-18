@@ -1,0 +1,138 @@
+{
+    "root": [
+        {
+            "tag": "html",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "lang",
+                    "value": "en"
+                }
+            ]
+        }
+    ],
+    "head": [
+        {
+            "tag": "meta",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "charset",
+                    "value": "UTF-8"
+                }
+            ]
+        },
+        {
+            "tag": "meta",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "name",
+                    "value": "viewport"
+                },
+                {
+                    "description": "content",
+                    "value": "width=device-width, initial-scale=1.0"
+                }
+            ]
+        },
+        {
+            "tag": "title",
+            "type": "NON_SELF_CLOSING",
+            "content": "Page Title"
+        },
+        {
+            "tag": "link",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "rel",
+                    "value": "stylesheet"
+                },
+                {
+                    "description": "href",
+                    "value": "styles.css"
+                }
+            ]
+        }
+    ],
+    "body": [
+        {
+            "tag": "h1",
+            "type": "NON_SELF_CLOSING",
+            "content": "Hello, World!"
+        },
+        {
+            "tag": "p",
+            "type": "NON_SELF_CLOSING",
+            "content": "This is a paragraph."
+        },
+        {
+            "tag": "img",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "src",
+                    "value": "image.jpg"
+                },
+                {
+                    "description": "alt",
+                    "value": "Image"
+                }
+            ]
+        },
+        {
+            "tag": "script",
+            "type": "SELF_CLOSING",
+            "attr": [
+                {
+                    "description": "src",
+                    "value": "script.js"
+                }
+            ]
+        },
+        {
+            "tag": "main",
+            "type": "NON_SELF_CLOSING",
+            "inner": [
+                {
+                    "tag": "h2",
+                    "type": "NON_SELF_CLOSING",
+                    "content": "Subheading"
+                },
+                {
+                    "tag": "p",
+                    "type": "NON_SELF_CLOSING",
+                    "content": "This is a sub-paragraph."
+                },
+                {
+                    "tag": "ul",
+                    "type": "NON_SELF_CLOSING",
+                    "inner": [
+                        {
+                            "tag": "li",
+                            "type": "NON_SELF_CLOSING",
+                            "content": "List item 1"
+                        },
+                        {
+                            "tag": "li",
+                            "type": "NON_SELF_CLOSING",
+                            "content": "List item 2"
+                        }
+                    ]
+                },
+                {
+                    "tag": "a",
+                    "type": "NON_SELF_CLOSING",
+                    "attr": [
+                        {
+                            "description": "href",
+                            "value": "https://www.google.com"
+                        }
+                    ],
+                    "content": "Link to Google"
+                }
+            ]
+        }
+    ]
+}
